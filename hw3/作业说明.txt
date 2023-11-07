@@ -1,0 +1,8 @@
+1. 本次作业是第二次作业的扩展。使用的数据集来自于Kaggle任务：Car Price Prediction Multiple Linear Regression，
+需要根据若干自变量来预测汽车价格price。
+数据见CarPrice_Assignment.csv，各个自变量的含义见Data Dictionary - carprices.xlsx，若对数据有细节问题可参考官方材料
+
+2. 任务1：自定义指标将price转换为一个分类指标，例如数据分为高/低两种价格或高/中/低三种价格。
+
+   任务2：【至少使用三个分类算法】（如决策树、支持向量机、boosting方法等），建立分类模型。
+   可自行将数据划分为测试集与训练集，也可以使用交叉验证的方法，对模型结果根据常用分类指标（如accuracy,precision,recall,f1 score等）进行模型比较与评价。
